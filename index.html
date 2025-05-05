@@ -3,359 +3,229 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NIMS GHANA</title>
-    <link rel="stylesheet" type="text/css" href="style2.css"> <!-- Link to external CSS -->
-    <script src="script2.js"></script>
-   
+    <title>Nims - Academics</title>
+    <link rel="stylesheet" type="text/css" href="style.css"> <!-- Link to external CSS -->
+    <script src="script.js"></script>
+    
 </head>
 <body>
-    <!-- Header Section -->
     <header>
-
-        <div class="container">
-            <nav>
-                <div class="logo">
-                    <img src="/img/placeholder/nims" alt="NIMS Logo">
-                    <h1>NIMS </h1>
-                    
-                </div>
-                <button class="hamburger" id="menu-toggle">☰</button>
-                <ul class="nav-links" id="nav-links">
-                    <li class="nav-item">
-                        <a href="#" class="dropdown-toggle">About Us</a>
-                        <ul class="dropdown-menu">
-                            <li><a href="#">Vision and Mission  </a></li>
-                            <li><a href="#">Our History</a></li>
-                            <li><a href="#">Leadership</a></li>
-                            
-                        </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="dropdown-toggle">Academics</a>
-                        <ul class="dropdown-menu">
-                            <li><a href="#">Undergraduate Programs</a></li>
-                            <li><a href="#">Graduate Programs</a></li>
-                            <li><a href="#">Research Areas</a></li>
-                            <li><a href="#">Publications</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="dropdown-toggle">Admissions</a>
-                        <ul class="dropdown-menu">
-                            <li><a href="#">Apply Requirements</a></li>
-                            <li><a href="#">How to apply</a></li>
-                            <li><a href="#">Online Admission Forms</a></li>
-                           
-                        </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="dropdown-toggle">News and Events</a>
-                        <ul class="dropdown-menu">
-                            <li><a href="#">Upcoming Events</a></li>
-                            <li><a href="#">News Letters</a></li>
-                            <li><a href="#">WorkShop and Seminars</a></li>
-                            
-                        </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="dropdown-toggle">People</a>
-                        <ul class="dropdown-menu">
-                            <li><a href="#">Faculty Members</a></li>
-                            <li><a href="#">Staff</a></li>
-                            <li><a href="#">Students</a></li>
-                    
-                        </ul>
-                    </li>
-
-                    <li class="nav-item">
-                        <a href="#" class="dropdown-toggle">Resources</a>
-                        <ul class="dropdown-menu">
-                            <li><a href="#">Library</a></li>
-                            <li><a href="#">Downloads(eg Brochurs, pdf)</a></li>
-                            <li><a href="#">Academic Calender</a></li>
-                    
-                        </ul>
-                    </li>
-
-                    <li class="nav-item">
-                        <a href="#" class="dropdown-toggle">Contact Us</a>
-                        <ul class="dropdown-menu">
-                            <li><a href="#">Contact Form</a></li>
-                            <li><a href="#">Location/Map</a></li>
-                            <li><a href="#">FAQs</a></li>
-                    
-                        </ul>
-                    </li>
-                    
-                
-                </ul>
-            </nav>
+        <div class="top-header">
+            <div class="logo">
+                <a href="/">
+                    <h1>NIMS</h1>
+                </a>
+            </div>
+            <!-- <nav class="top-nav">
+                <a href="/contact">CONTACT</a>
+                <a href="/visit">VISIT</a>
+                <a href="/give">GIVE</a>
+                <a href="/apply">APPLY</a>
+            </nav> -->
+            <div class="mobile-menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
         </div>
-
-        
+        <nav class="main-nav">
+            <div class="nav-container">
+                <div class="nav-item">
+                    <a href="/about">About</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="/about/overview">College Overview</a></li>
+                        <li><a href="/about/history">History and Tradition</a></li>
+                        <li><a href="/about/leadership">Leadership</a></li>
+                        <li><a href="/about/mission">Mission and Vision</a></li>
+                        <li><a href="/about/facts">Facts and Figures</a></li>
+                    </ul>
+                </div>
+                <div class="nav-item">
+                    <a href="/academics">Academics</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="/academics/programs">Academic Programs</a></li>
+                        <li><a href="/academics/divisions">Academic Divisions</a></li>
+                        <li><a href="/academics/calendar">Academic Calendar</a></li>
+                        <li><a href="/academics/catalog">Course Catalog</a></li>
+                        <li><a href="/academics/library">Library</a></li>
+                    </ul>
+                </div>
+                <div class="nav-item">
+                    <a href="/admissions">Admissions and Aid</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="/admissions/apply">Apply to Morehouse</a></li>
+                        <li><a href="/admissions/tuition">Tuition and Fees</a></li>
+                        <li><a href="/admissions/financial-aid">Financial Aid</a></li>
+                        <li><a href="/admissions/scholarships">Scholarships</a></li>
+                        <li><a href="/admissions/visit">Visit Campus</a></li>
+                    </ul>
+                </div>
+                <div class="nav-item">
+                    <a href="/life">Life</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="/life/housing">Housing and Dining</a></li>
+                        <li><a href="/life/student-services">Student Services</a></li>
+                        <li><a href="/life/athletics">Athletics</a></li>
+                        <li><a href="/life/clubs">Clubs and Organizations</a></li>
+                        <li><a href="/life/health">Health and Wellness</a></li>
+                    </ul>
+                </div>
+                <div class="nav-item">
+                    <a href="/research">Research</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="/research/centers">Research Centers</a></li>
+                        <li><a href="/research/publications">Publications</a></li>
+                        <li><a href="/research/grants">Research Grants</a></li>
+                        <li><a href="/research/opportunities">Student Research</a></li>
+                        <li><a href="/research/partnerships">Partnerships</a></li>
+                    </ul>
+                </div>
+                <div class="nav-item">
+                    <a href="/news">News and Events</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="/news/newsroom">Newsroom</a></li>
+                        <li><a href="/news/calendar">Events Calendar</a></li>
+                        <li><a href="/news/magazine">Morehouse Magazine</a></li>
+                        <li><a href="/news/social">Social Media</a></li>
+                    </ul>
+                </div>
+                <div class="nav-item">
+                    <a href="/commencement">Commencement</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="/commencement/schedule">Schedule</a></li>
+                        <li><a href="/commencement/graduates">Graduates</a></li>
+                        <li><a href="/commencement/speakers">Speakers</a></li>
+                        <li><a href="/commencement/live">Live Stream</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
     </header>
 
-    <!--New Hero Section-->
- <!-- VIDEO SECTION -->
- <section class="hero-section">
-    <video autoplay muted loop class="bg-video">
-      <source src="morehouse-video.mp4" type="video/mp4" />
-      Your browser does not support the video tag.
-    </video>
-
-    <div class="hero-content">
-      <h2>– BECOME A STUDENT –</h2>
-      <h1>NIMS</h1>
-      <p>
-       Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam quos adipisci iste possimus, neque provident laudantium iusto quia velit voluptate ipsum dicta recusandae itaque quibusdam commodi minima quam molestias eum.
-      </p>
-      <div class="cta-buttons">
-        <button>APPLY TODAY</button>
-        <button>VISIT AND TOUR ➔</button>
-      </div>
-    </div>
-  </section>
-
-
-    <!-- Hero Section -->
-    <section class="container hero">
-        <div class="hero-card">
-            <div class="hero-image">
-                <img src="/api/placeholder/600/350" alt="Students on campus">
-                <div class="hero-text">
-                    <h2>Welcome to NIMS</h2>
-                    <p>it amet consectetur adipisicing elit. Ipsa minima dolorem quibusdam libero maiores illo, vero earum at inventore veniam, animi illum</p>
-                </div>
+    <section class="hero">
+        <div class="hero-content">
+            <div class="breadcrumb">
+                <a href="/">Home</a>
+                <span>›</span>
+                <a href="/academics">Academics</a>
+                <span>›</span>
+                Academic Programs
+            </div>
+            <h1>Academic Programs</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, dolor dolore consequuntur quae sint culpa officiis vero cupiditate odio illo voluptates sunt quam unde repellat ex temporibus quia optio ipsa?</p>
+            <div class="button-group">
+                <a href="/programs/summer" class="btn">Summer Academy</a>
+                <a href="/programs/trio" class="btn">TRIO Programs</a>
             </div>
         </div>
-        <div class="hero-card">
-            <div class="hero-image">
-                <img src="/api/placeholder/600/350" alt="Campus clock tower">
-                <div class="hero-text">
-                    <h2>Leading the Way in Education</h2>
-                    <p>Excellence in teaching, research, and community service.</p>
+        <div class="hero-image"></div>
+    </section>
+
+    <section class="programs">
+        <div class="programs-container">
+            <div class="program-card">
+                <div class="program-content">
+                    <h2 class="program-title">Mastercard Programs</h2>
+                    <p class="program-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium blanditiis a fugit excepturi sunt eaque autem illo a</p>
+                    <a href="/programs/owsp" class="learn-more">Learn More</a>
+                </div>
+            </div>
+            <div class="program-card">
+                <div class="program-content">
+                    <h2 class="program-title">Heudle Programs</h2>
+                    <p class="program-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium blanditiis a fugit excepturi sunt eaque autem illo a.</p>
+                    <a href="/programs/honors" class="learn-more">Learn More</a>
+                </div>
+            </div>
+            <div class="program-card">
+                <div class="program-content">
+                    <h2 class="program-title">Summer School</h2>
+                    <p class="program-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium blanditiis a fugit excepturi sunt eaque autem illo a.</p>
+                    <a href="/programs/summer" class="learn-more">Learn More</a>
+                </div>
+            </div>
+            <div class="program-card">
+                <div class="program-content">
+                    <h2 class="program-title">STEM Programs</h2>
+                    <p class="program-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium blanditiis a fugit excepturi sunt eaque autem illo a</p>
+                    <a href="/programs/trio" class="learn-more">Learn More</a>
+                </div>
+            </div>
+            <div class="program-card">
+                <div class="program-content">
+                    <h2 class="program-title">Arts and Social Sciences</h2>
+                    <p class="program-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium blanditiis a fugit excepturi sunt eaque autem illo a</p>
+                    <a href="/programs/maap" class="learn-more">Learn More</a>
+                </div>
+            </div>
+            <div class="program-card">
+                <div class="program-content">
+                    <h2 class="program-title">Humanities</h2>
+                    <p class="program-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium blanditiis a fugit excepturi sunt eaque autem illo a</p>
+                    <a href="/programs/icls" class="learn-more">Learn More</a>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- About Us Section -->
-    <section class="container content-section">
-        <h2 class="section-title">About Us</h2>
-        <div class="content-grid">
-            <div class="content-card">
-                <div class="card-image">
-                    <img src="/api/placeholder/400/300" alt="Campus view">
-                </div>
-                <div class="card-content">
-                    <h3>Our Mission</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis nulla quibusdam voluptatem natus consequatur dolor ut? Ut error sit consequatur veritatis! Nisi, perspiciatis minus. Deleniti nisi provident sunt ad facere!.</p>
-                    <a href="#" class="btn">Learn More</a>
-                </div>
-            </div>
-            <div class="content-card">
-                <div class="card-image">
-                    <img src="/api/placeholder/400/300" alt="Students studying">
-                </div>
-                <div class="card-content">
-                    <h3>Our Vision</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati corporis iure inventore! Assumenda quis laborum sapiente aliquam veniam, corrupti maxime molestiae eligendi? Laborum laboriosam aspernatur consequuntur, explicabo sed nihil provident?.</p>
-                    <a href="#" class="btn">Learn More</a>
-                </div>
-            </div>
-            <div class="content-card">
-                <div class="card-image">
-                    <img src="/api/placeholder/400/300" alt="Graduation ceremony">
-                </div>
-                <div class="card-content">
-                    <h3>Our Values</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas praesentium, error minus quaerat earum quasi ratione labore eveniet ad magnam cumque, ipsam tenetur incidunt velit? Voluptate quos debitis quo consequatur?</p>
-                    <a href="#" class="btn">Learn More</a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Academic Programs Section -->
-    <section class="container content-section">
-        <h2 class="section-title">Academic Programs</h2>
-        <div class="program-tabs">
-            <button class="tab-btn active" data-tab="undergraduate">Undergraduate</button>
-            <button class="tab-btn" data-tab="graduate">Graduate</button>
-            <button class="tab-btn" data-tab="professional">Professional Studies</button>
-        </div>
-        <div class="program-content active" id="undergraduate">
-            <div class="program-card">
-                <h4>Bachelor of Science</h4>
-                <p>it amet consectetur adipisicing elit. Ipsa minima dolorem quibusdam libero maiores illo, vero earum at inventore veniam, animi illum </p>
-            </div>
-            <div class="program-card">
-                <h4>Bachelor of Arts</h4>
-                <p>it amet consectetur adipisicing elit. Ipsa minima dolorem quibusdam libero maiores illo, vero earum at inventore veniam, animi illum</p>
-            </div>
-            <div class="program-card">
-                <h4>Bachelor of Business</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus esse rem debitis accusantium animi sit, maiores hic ea a, voluptas cum repellat. Consequuntur nisi facere fuga facilis esse distinctio ab?.</p>
-            </div>
-            <div class="program-card">
-                <h4>Bachelor of Education</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque dolorum odit expedita odio consectetur cum quia! Quos voluptatum sint, recusandae necessitatibus consequatur iusto! Perferendis, numquam explicabo cum veniam ratione est?.</p>
-            </div>
-        </div>
-        <div class="program-content" id="graduate">
-            <div class="program-card">
-                <h4>Master's Programs</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, consectetur itaque iure ad corrupti facilis obcaecati dicta accusamus sequi distinctio soluta neque maiores ullam perferendis dolores? Tenetur expedita illo hic!.</p>
-            </div>
-            <div class="program-card">
-                <h4>Doctoral Programs</h4>
-                <p>R                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, consectetur itaque iure ad corrupti facilis obcaecati dicta accusamus sequi distinctio soluta neque maiores ullam perferendis dolores? Tenetur expedita illo hic!.</p>
-            </p>
-            </div>
-            <div class="program-card">
-                <h4>MBA Programs</h4>
-                <p>F                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, consectetur itaque iure ad corrupti facilis obcaecati dicta accusamus sequi distinctio soluta neque maiores ullam perferendis dolores? Tenetur expedita illo hic!.</p>
-                .</p>
-            </div>
-        </div>
-        <div class="program-content" id="professional">
-            <div class="program-card">
-                <h4>Law School</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, error placeat? Deleniti quibusdam nemo deserunt, illum blanditiis temporibus nobis tempora ab nisi debitis minus, dolore ipsum et, accusamus placeat repellat!.</p>
-            </div>
-            <div class="program-card">
-                <h4>Medical School</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, error placeat? Deleniti quibusdam nemo deserunt, illum bl</p>
-            </div>
-            <div class="program-card">
-                <h4>Engineering</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, error placeat? Deleniti quibusdam nemo deserunt, illum bl</p>
-            </div>
-            <div class="program-card">
-                <h4>Education</h4>
-                <p>TLorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, error placeat? Deleniti quibusdam nemo deserunt, illum bl</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- Feature Sections -->
-    <section class="container feature-section">
-        <div class="feature-card">
-            <div class="feature-content">
-                <h3>Student Life</h3>
-                <p>it amet consectetur adipisicing elit. Ipsa minima dolorem quibusdam libero maiores illo, vero earum at inventore veniam, animi illum.</p>
-                <p>it amet consectetur adipisicing elit. Ipsa minima dolorem quibusdam libero maiores illo, vero earum at inventore veniam, animi illum</p>
-                <a href="#" class="btn btn-outline">Learn more</a>
-            </div>
-            <div class="feature-image">
-                <img src="/api/placeholder/400/300" alt="Students in campus">
-            </div>
-        </div>
-        <div class="feature-card">
-            <div class="feature-content">
-                <h3>Faculty Spotlight</h3>
-                <p>it amet consectetur adipisicing elit. Ipsa minima dolorem quibusdam libero maiores illo, vero earum at inventore veniam, animi illum.</p>
-                <p>it amet consectetur adipisicing elit. Ipsa minima dolorem quibusdam libero maiores illo, vero earum at inventore veniam, animi illum</p>
-                <a href="#" class="btn btn-outline">Learn more</a>
-            </div>
-            <div class="feature-image">
-                <img src="/api/placeholder/400/300" alt="Professor teaching">
-            </div>
-        </div>
-    </section>
-
-    <!-- Another Feature Section -->
-    <section class="container feature-section">
-        <div class="feature-card">
-            <div class="feature-content">
-                <h3>Research Excellence</h3>
-                <p>it amet consectetur adipisicing elit. Ipsa minima dolorem quibusdam libero maiores illo, vero earum at inventore veniam, animi illum</p>
-                <p>it amet consectetur adipisicing elit. Ipsa minima dolorem quibusdam libero maiores illo, vero earum at inventore veniam, animi illum</p>
-                <a href="#" class="btn btn-outline">Learn more</a>
-            </div>
-            <div class="feature-image">
-                <img src="/api/placeholder/400/300" alt="Research lab">
-            </div>
-        </div>
-        <div class="feature-card">
-            <div class="feature-content">
-                <h3>Faculty Life</h3>
-                <p>it amet consectetur adipisicing elit. Ipsa minima dolorem quibusdam libero maiores illo, vero earum at inventore veniam, animi illum.</p>
-                <p>it amet consectetur adipisicing elit. Ipsa minima dolorem quibusdam libero maiores illo, vero earum at inventore veniam, animi illum</p>
-                <a href="#" class="btn btn-outline">Learn more</a>
-            </div>
-            <div class="feature-image">
-                <img src="/api/placeholder/400/300" alt="Faculty member">
-            </div>
-        </div>
-    </section>
-
-    <!-- Banner Image -->
-    <div class="container">
-        <img src="/api/placeholder/1200/400" alt="Campus panorama" class="banner-image">
-    </div>
-
-    <!-- CTA Section -->
-    <section class="cta-section">
-        <div class="container">
-            <h2>Begin Your Journey at NIMS</h2>
-            <p>it amet consectetur adipisicing elit. Ipsa minima dolorem quibusdam libero maiores illo, vero earum at inventore veniam, animi illum</p>
-            <a href="#" class="btn btn-white">Apply Now</a>
-            <a href="#" class="btn btn-outline">Schedule a Visit</a>
-        </div>
-    </section>
-
-    <!-- Footer -->
     <footer>
-        <div class="container">
-            <div class="footer-grid">
-                <div class="footer-column">
-                    <h4>About NIMS</h4>
-                    <ul class="footer-links">
-                        <li><a href="#">Our History</a></li>
-                        <li><a href="#">Mission and Vision</a></li>
-                        <li><a href="#">Leadership</a></li>
-                        <li><a href="#">Diversity and Inclusion</a></li>
-                        <li><a href="#">Employment</a></li>
-                    </ul>
+        <div class="footer-top">
+            <div class="footer-column">
+                <div class="footer-logo">
+                    <img src="/api/placeholder/120/60" alt="nims logo">
                 </div>
-                <div class="footer-column">
-                    <h4>Academics</h4>
-                    <ul class="footer-links">
-                        <li><a href="#">Undergraduate</a></li>
-                        <li><a href="#">Graduate</a></li>
-                        <li><a href="#">Online Learning</a></li>
-                        <li><a href="#">Academic Calendar</a></li>
-                        <li><a href="#">Libraries</a></li>
-                    </ul>
+                <div class="footer-info">
+                    <p>Kumasi, KNUST</p>
+                    <p>Casely Hayford Building</p>
+                    <p>(233) 999-9999</p>
                 </div>
-                <div class="footer-column">
-                    <h4>Admissions</h4>
-                    <ul class="footer-links">
-                        <li><a href="#">Apply</a></li>
-                        <li><a href="#">Visit</a></li>
-                        <li><a href="#">Tuition and Aid</a></li>
-                        <li><a href="#">International Students</a></li>
-                        <li><a href="#">Transfer Students</a></li>
-                    </ul>
-                </div>
-                <div class="footer-column">
-                    <h4>Campus Life</h4>
-                    <ul class="footer-links">
-                        <li><a href="#">Housing</a></li>
-                        <li><a href="#">Food</a></li>
-                        <li><a href="#">Athletics</a></li>
-                        <li><a href="#">Arts and Culture</a></li>
-                        <li><a href="#">Student Organizations</a></li>
-                    </ul>
+                <div class="footer-contact">
+                    <span>Contact Us</span>
                 </div>
             </div>
-            <div class="copyright">
-                <p>&copy; 2025 NIMS Ghana. All rights reserved.</p>
+            <div class="footer-column">
+                <h3 class="footer-title">LEARN</h3>
+                <ul class="footer-links">
+                    <li><a href="/academics/divisions">Academic Divisions</a></li>
+                    <li><a href="/academics/majors">Majors and Minors</a></li>
+                    <li><a href="/admissions/tuition">Tuition and Fees</a></li>
+                    <li><a href="/admissions/financial-aid">Financial Aid and Scholarships</a></li>
+                    <li><a href="/admissions/request">Request Information</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3 class="footer-title">EXPLORE</h3>
+                <ul class="footer-links">
+                    <li><a href="/library">Prempeh Library</a></li>
+                    <li><a href="#">College of Science</a></li>
+                    <li><a href="#">Maths Department</a></li>
+                    <li><a href="/map">Campus Map</a></li>
+                    <li><a href="#">src week</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3 class="footer-title">NEWS and EVENTS</h3>
+                <ul class="footer-links">
+                    <li><a href="/newsroom">Morehouse Newsroom</a></li>
+                    <li><a href="/events">Events Calendar</a></li>
+                    <li><a href="/courses">Courses</a></li>
+                    <li><a href="/portal">MyPortal</a></li>
+                    <li><a href="/Find">Find</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div>© 2025 Nims Ghana | <a href="/legal">Legal</a></div>
+            <div class="social-links">
+                <a href="#facebook">f</a>
+                <a href="#instagram">i</a>
+                <a href="#twitter">t</a>
+                <a href="#youtube">y</a>
+                <a href="#linkedin">l</a>
             </div>
         </div>
     </footer>
 
-  
+   
 </body>
 </html>
